@@ -1,0 +1,165 @@
+/*
+color {
+    color-border: #000000;
+    color-border2: #303030;
+    color-bg: #5e5e5e;
+    color-h1: #919191;
+    color-grey: #c6c6c6; 
+}
+  */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', monospace;
+  overflow-x: hidden;
+  padding-top: 70px;
+  padding-bottom: 200px;
+}
+
+header {
+  width: 200px;
+  background: #202020;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 20px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+  margin-top: 0px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 9999; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    min-height: 100vh;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+  
+}
+
+section {
+    margin-top: 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #202020;
+    color: white;
+    
+}
+
+section h2 {
+    color: #0dcaf0; 
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 150px; 
+    border: 3px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    margin: 0 auto; 
+    max-width: 800px;
+    padding: 20px;
+}
+
+.content-wrapper {
+  margin-top: -130px;
+  padding: 20px;
+  max-width: 100%;
+  height: 100vh;
+  
+}
+
+form {
+  margin-top: 40px;
+}
+
+.contact-form {
+  background-color: #202020;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  
+}
+
+.contact-form .form-label {
+  color: #0dcaf0;
+}
+
+.contact-form .btn-primary {
+  background-color: #333;
+  border: none;
+}
+
+.contact-form .form-control {
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+.weatherwidget-io {
+  
+  position: absolute;
+  bottom: 0px;
+  top: -20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 9999;
+  box-shadow: 0 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+  padding-bottom: 180px;
+  margin-top: 5px;
+}
+
+.spacer{
+  margin-bottom: 110px;
+  visibility: hidden; 
+}
